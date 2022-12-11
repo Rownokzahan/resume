@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    margin-bottom: 0;
+}
+header img{
+    height: 130px;
+    width: 130px;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0;
+}
+main{
+    margin: 20px 100px ;
+}
+
+h4{
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+p{
+    margin-top: 0;
+    width: 90%;
+}
+.education table,.education th,.education td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px 10px;
+}
+
+
+.skill tr td{
+    padding-right: 20px;
+}
+ul.dashed {
+    list-style-type: none;
+}
+ul.dashed > li:before {
+    content: "- ";
+}
+.personal-info{
+    margin-left: 70px;
+}
+.personal-info tr td{
+    padding-right: 10px;
+}
+footer p{
+    margin-top: 100px;
+    text-align: center;
+}
