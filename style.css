@@ -1,17 +1,17 @@
 header{
     display: flex;
     justify-content: space-between;
-    margin: 100px;
+    margin: 5%;
     margin-bottom: 0;
 }
 header img{
-    height: 130px;
     width: 130px;
+    height: 130px;
     border-radius: 15px;
     box-shadow: 0 4px 4px 0;
 }
 main{
-    margin: 20px 100px ;
+    margin: 20px 5% ;
 }
 
 h4{
@@ -21,6 +21,7 @@ h4{
 p{
     margin-top: 0;
     width: 90%;
+    text-align: justify;
 }
 .education table,.education th,.education td {
     border: 1px solid black;
@@ -28,6 +29,11 @@ p{
     padding: 6px 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .education table,.education th,.education td {
+        padding: 1px;
+    }
+  }
 
 .skill tr td{
     padding-right: 20px;
@@ -38,13 +44,14 @@ ul.dashed {
 ul.dashed > li:before {
     content: "- ";
 }
-.personal-info{
+.personal-info table{
     margin-left: 70px;
 }
 .personal-info tr td{
     padding-right: 10px;
 }
 footer p{
+    margin: auto;
     margin-top: 100px;
-    text-align: center;
+    width: max-content;
 }
